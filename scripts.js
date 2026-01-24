@@ -21,7 +21,7 @@ function getValidStatus(taskNumber) {
       return status;
     }
 
-    alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
+    alert("Invalid status. Please enter 'todo', 'doing', or 'done'."); 
   }
 }
 
