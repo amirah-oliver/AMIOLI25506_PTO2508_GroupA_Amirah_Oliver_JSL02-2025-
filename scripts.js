@@ -58,7 +58,7 @@ tasks.push(createTask(2));
 const completedTasks = tasks.filter(task => task.status === "done");
 
 if (completedTasks.length > 0) {
-  console.log("Completed Tasks:");
+  console.log("Completed Tasks:"); 
   completedTasks.forEach((task, index) => {
     console.log(
       `${index + 1}. ${task.title} - ${task.description}`
